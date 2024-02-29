@@ -37,9 +37,9 @@ const Home = () => {
           <img src={logo} alt="Logo" />
         </div>
             <ul>
-            <li className="header"><a href="#">Home</a></li>
-            <li className="header"><a href="#">credit score check</a></li>
-            <li className="header"><a href="#">CRED pay</a></li>
+            <li className="header"><a href="/home">Home</a></li>
+            <li className="header"><a href="/home">credit score check</a></li>
+            <li className="header"><a href="/home">CRED pay</a></li>
             
             
             </ul>

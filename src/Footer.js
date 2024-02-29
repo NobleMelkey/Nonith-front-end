@@ -6,9 +6,9 @@ const Footer = () => {
     return (
         <section className="contact" id="contact">
           <div className="contact-text">
-            <h2>Contact <span>Me!</span></h2>
+            <h2>Contact <span>us!</span></h2>
             <h4>Have a question, comment, or feedback? </h4>
-            <p>We'd love to hear from you! Feel free to reach out to us using the contact information provided. Our team is here to assist you with any inquiries you may have.</p>
+            <p>We'd love to hear from you! Feel free to reach out to us using the contact information provided. Our team is here to assist you with any inquiries you may have.</p>
             <div className="list">
               <li><a href="tel:8072586621">8072586621</a></li>
               <li><a href="tel:8056544266">8056544266</a></li>
@@ -16,11 +16,11 @@ const Footer = () => {
             </div>
     
             <div className="contact-icons">
-              <a href="#"><SocialIcon url="www.facebook.com"  style={{ height: 25, width: 25 }} /></a>
-              <a href="#"><SocialIcon url="www.google.com"  style={{ height: 25, width: 25 }}/></a>
-              <a href="#"><SocialIcon url="www.X.com" style={{ height: 25, width: 25 }} /></a>
-              <a href="#"><SocialIcon url="www.instagram.com"  style={{ height: 25, width: 25 }}/></a>
-              <a href="#"><SocialIcon url="https://linkedin.com/in/couetilc"  style={{ height: 25, width: 25 }}/></a>
+              <a href="www.facebook.com"><SocialIcon url="www.facebook.com"  style={{ height: 25, width: 25 }} /></a>
+              <a href="www.google.com"><SocialIcon url="www.google.com"  style={{ height: 25, width: 25 }} /></a>
+              <a href="www.X.com"><SocialIcon url="www.X.com" style={{ height: 25, width: 25 }} /></a>
+              <a href="www.instagram.com"><SocialIcon url="www.instagram.com"  style={{ height: 25, width: 25 }} /></a>
+              <a href="https://linkedin.com/in/couetilc"><SocialIcon url="https://linkedin.com/in/couetilc"  style={{ height: 25, width: 25 }} /></a>
             </div>
           </div>
           <div className="contact-form">
@@ -34,8 +34,7 @@ const Footer = () => {
           </div>
           
         </section>
-       
-      );
-    };
+    );
+};
 
 export default Footer;
