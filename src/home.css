@@ -1,0 +1,197 @@
+/* home.css */
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.logo img {
+    height: 40px; /* Adjust the height as needed */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
+}
+
+ul.header li:first-child {
+    margin-left: 0; /* Reset margin for the first item */
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-image: url('../src/pic/black-canyon-f1a1d991.jpg');
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slideIn 0.5s forwards;
+    width: 100%;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+.content button {
+    padding: 10px 20px;
+    background-color: #e8ede8; /* Green */
+    border: none;
+    color: rgb(18, 17, 17);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+    transition-duration: 0.4s; /* Smooth transition on hover */
+}
+
+.content button:hover {
+    background-color: #535453; /* Darker green on hover */
+}
+
+
+.background-container {
+    background-image: url('../src/pic/dark-moonlight-night-forest-vector-nature-landscape_104785-1611.avif');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set the height according to your design */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .background-content {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .background-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .background-content p {
+    font-size: 16px;
+  }
+
+  .background-content-button {
+    padding: 10px 20px;
+    background-color: #e8ede8; /* Green */
+    border: none;
+    color: rgb(18, 17, 17);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+    transition-duration: 0.4s; /* Smooth transition on hover */
+}
+
+.background-content-button:hover {
+    background-color: #535453; /* Darker green on hover */
+}
+
+.background-container2 {
+    background-image: url('../src/pic/HD-wallpaper-dark-forest-foggy-trees-fence-nature.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Set the height according to your design */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .content1 {
+    background-image: url('../src/pic/white-canyon-6c5d2a4c.jpg');
+    color: rgb(23, 23, 23);
+    padding: 20px;
+    text-align: center;
+    animation: slideIn 0.5s forwards;
+    width: 100%;
+}
+
+/* Add this to your home.css file */
+.icon-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .icon-item {
+    text-align: center;
+  }
+  
+  .icon-item img {
+    width: 50px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .icon-item p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .content1 button {
+    padding: 10px 20px;
+    background-color: #a8ada8; /* Green */
+    border: none;
+    color: rgb(18, 17, 17);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners */
+    transition-duration: 0.4s; /* Smooth transition on hover */
+}
+
+.content1 button:hover {
+    background-color: #535453; /* Darker green on hover */
+}
+  
+  
+
+  
