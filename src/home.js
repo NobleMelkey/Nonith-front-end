@@ -26,7 +26,7 @@ const Home = () => {
     };
 
     const handleSendMobileNumber = (mobileNumber) => {
-      // Send mobile number logic here
+      
       console.log("Sending mobile number:", mobileNumber);
     };
     return (
@@ -105,6 +105,7 @@ matters seriously.</h1><h2>so that you don’t have to.
         
         {showModal && <MobileNumberModal onClose={handleCloseModal} onSend={handleSendMobileNumber} />}
         <div className="about">
+            <div className="about smaller-text">
             <h2>about Nonith</h2>
             <p>Nonith is a members only credit card bill payment platform that rewards its members for clearing their credit card bills on time. Nonith members get access to exclusive rewards and experiences from premier brands upon clearing their credit card bills on Nonith.</p>
             <br>
@@ -155,8 +156,10 @@ Nonith Gem Rewards:
 banks supported on</p>
             <br>
             </br>
+            </div>
 
         </div>
+        
         
         <Footer />
         <Footer2/>

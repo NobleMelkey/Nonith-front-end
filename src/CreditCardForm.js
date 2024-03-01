@@ -1,4 +1,4 @@
-// CreditCardForm.js
+
 import React, { useEffect } from 'react';
 import './CreditCardForm.css';
 import clip from '../src/pic/chip.png';

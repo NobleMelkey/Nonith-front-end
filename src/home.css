@@ -1,4 +1,4 @@
-/* home.css */
+
 @keyframes slideIn {
     0% {
         transform: translateY(100%);
@@ -23,7 +23,7 @@ nav {
 }
 
 .logo img {
-    height: 40px; /* Adjust the height as needed */
+    height: 40px; 
 }
 
 ul {
@@ -38,7 +38,7 @@ li {
 }
 
 ul.header li:first-child {
-    margin-left: 0; /* Reset margin for the first item */
+    margin-left: 0; 
 }
 
 a {
@@ -70,7 +70,7 @@ a:hover {
 
 .content button {
     padding: 10px 20px;
-    background-color: #e8ede8; /* Green */
+    background-color: #e8ede8; 
     border: none;
     color: rgb(18, 17, 17);
     text-align: center;
@@ -79,12 +79,12 @@ a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded corners */
-    transition-duration: 0.4s; /* Smooth transition on hover */
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
 }
 
 .content button:hover {
-    background-color: #535453; /* Darker green on hover */
+    background-color: #535453; 
 }
 
 
@@ -92,7 +92,7 @@ a:hover {
     background-image: url('../src/pic/dark-moonlight-night-forest-vector-nature-landscape_104785-1611.avif');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Set the height according to your design */
+    height: 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ a:hover {
 
   .background-content-button {
     padding: 10px 20px;
-    background-color: #e8ede8; /* Green */
+    background-color: #e8ede8; 
     border: none;
     color: rgb(18, 17, 17);
     text-align: center;
@@ -125,19 +125,19 @@ a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded corners */
-    transition-duration: 0.4s; /* Smooth transition on hover */
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
 }
 
 .background-content-button:hover {
-    background-color: #535453; /* Darker green on hover */
+    background-color: #535453; 
 }
 
 .background-container2 {
     background-image: url('../src/pic/HD-wallpaper-dark-forest-foggy-trees-fence-nature.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px; /* Set the height according to your design */
+    height: 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +152,7 @@ a:hover {
     width: 100%;
 }
 
-/* Add this to your home.css file */
+
 .icon-row {
     display: flex;
     justify-content: space-around;
@@ -165,8 +165,8 @@ a:hover {
   }
   
   .icon-item img {
-    width: 50px; /* Set the width of the image */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px; 
+    height: auto; 
   }
   
   .icon-item p {
@@ -175,7 +175,7 @@ a:hover {
   }
   .content1 button {
     padding: 10px 20px;
-    background-color: #a8ada8; /* Green */
+    background-color: #a8ada8; 
     border: none;
     color: rgb(18, 17, 17);
     text-align: center;
@@ -184,14 +184,20 @@ a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px; /* Rounded corners */
-    transition-duration: 0.4s; /* Smooth transition on hover */
+    border-radius: 10px; 
+    transition-duration: 0.4s; 
 }
 
 .content1 button:hover {
-    background-color: #535453; /* Darker green on hover */
+    background-color: #535453; 
 }
-  
+.about.smaller-text {
+    font-size: 10px; 
+    font-family: 'Montserrat', sans-serif; 
+  line-height: 1.5;
+  color: #0b0101; 
+  }
+
   
 
   
